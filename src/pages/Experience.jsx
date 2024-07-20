@@ -175,7 +175,11 @@ const Experience = () => {
               href="https://metaphorhub.com/"
               target="_blank" ref={addToRightSlide}
             >
+<<<<<<< HEAD
               <img src="metaLogo.png" alt="logo" className="w-11 rounded-sm" />
+=======
+              <img src="metaLogo.png" alt="M" className="w-11 rounded-sm" />
+>>>>>>> d1ad352920caba743d1e2351f221720acc98e5b4
               <div ref={addToRightSlide}>
                 <p>Metaphor Hub</p>
                 <p className="text-sm font-normal">Coimbatore, India</p>
