@@ -175,14 +175,14 @@ const Experience = () => {
               href="https://metaphorhub.com/"
               target="_blank" ref={addToRightSlide}
             >
-              <img src="/metaLogo.png" alt="logo" className="w-11 rounded-sm" />
+              <img src="metaLogo.png" alt="logo" className="w-11 rounded-sm" />
               <div ref={addToRightSlide}>
                 <p>Metaphor Hub</p>
                 <p className="text-sm font-normal">Coimbatore, India</p>
               </div>
               <GoArrowUpRight />
             </a>
-            <div className="text-white max-w-[700px] companyInfo" ref={addToRightSlide}>
+            <div className="text-white max-w-[700px] companyInfo text-justify" ref={addToRightSlide}>
               <p>
                 <span className="text-white">Metaphor Hub</span> is a prominant
                 Custom Software development club and a club for open source{" "}
@@ -290,7 +290,7 @@ const Experience = () => {
               </p>
             </div>
           </div>
-          <div className="p-10 rounded-lg bg-zinc-900 text-white space-y-4 experienceInfo" ref={addToLeftSlide} style={{ overflow: "hidden" }}>
+          <div className="p-10 rounded-lg bg-zinc-900 text-white space-y-4 experienceInfo text-justify" ref={addToLeftSlide} style={{ overflow: "hidden" }}>
             <p>
               As a <span>Freelance full stack Engineer</span>, I developed and
               debugged cutting-edge progressive Web Applications, SaaS{" "}
@@ -351,7 +351,7 @@ const Experience = () => {
               ref={addToRightSlide1}
             >
               <img
-                src="public/OPMLogo.png"
+                src="OPMLogo.PNG"
                 alt=""
                 className="w-10 h-11 rounded-sm"
               />
@@ -361,7 +361,7 @@ const Experience = () => {
               </div>
               <GoArrowUpRight />
             </a>
-            <div className="text-white max-w-[700px] companyInfo" ref={addToRightSlide1}>
+            <div className="text-white max-w-[700px] companyInfo text-justify" ref={addToRightSlide1}>
               <p>
                 <span className="text-white">OPM Corporation</span> is a leading
                 business consulting firm founded in June 2020, dedicated to
@@ -427,7 +427,7 @@ const Experience = () => {
               </p>
             </div>
           </div>
-          <div className="p-10 rounded-lg bg-zinc-900 text-white space-y-4 lg:min-w-[500px] lg:max-w-[500px] experienceInfo" ref={addToLeftSlide1} >
+          <div className="p-10 rounded-lg bg-zinc-900 text-white space-y-4 lg:min-w-[500px] lg:max-w-[500px] experienceInfo text-justify" ref={addToLeftSlide1} >
             <p>
               As an <span>Software Developer Engineer Intern</span>, I developed
               and enhanced the software by developing productive, responsive

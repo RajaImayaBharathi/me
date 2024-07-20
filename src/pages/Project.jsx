@@ -109,7 +109,7 @@ const Project = () => {
           <div className="m-10 mt-36 flex flex-col-reverse lg:flex-row space-y-5 ">
             <div className="flex items-center mt-10" ref={addToLeftSlide1}>
               <img
-                src="public/webapp1.png"
+                src="webapp1.PNG"
                 alt=""
                 className="min-h-[160px] max-h-[180px] max-w-[300px] p min-w-[300px]"
               />
@@ -119,7 +119,7 @@ const Project = () => {
                 <div className="">
                   <div className="flex mb-1">
                     <div className="sh-10 w-10 rounded-md mr-2">
-                      <img src="public/logo.png" alt="" />
+                      <img src="logo.png" alt="" />
                     </div>
                     <p className="text-white font-bold text-2xl">
                       Intellect WorkFlows
@@ -214,7 +214,7 @@ const Project = () => {
           <div className="m-10 mt-36 flex flex-col-reverse lg:flex-row space-y-5">
             <div className="flex items-center mt-10" ref={addToRightSlide1}>
               <img
-                src="public/TransitHub2.png"
+                src="TransItHub2.PNG"
                 alt=""
                 className="min-h-[160px] max-h-[180px] max-w-[300px] p min-w-[300px]"
               />
@@ -224,7 +224,7 @@ const Project = () => {
                 <div className="">
                   <div className="flex mb-1">
                     <div className="h-8 w-8 rounded-md mr-2">
-                      <img src="public/TransIthublogo.png" alt="" />
+                      <img src="TransItHublogo.png" alt="" />
                     </div>
                     <p className="text-white font-bold text-2xl">TransIt-HUB</p>
                   </div>
@@ -311,7 +311,7 @@ const Project = () => {
           <div className="m-10 mt-36 flex flex-col-reverse lg:flex-row space-y-5 ">
             <div className="flex items-center mt-10" ref={addToLeftSlide2}>
               <img
-                src="public/autoassistHub.png"
+                src="autoassistHub.PNG"
                 alt=""
                 className="min-h-[160px] max-h-[180px] max-w-[300px] p min-w-[300px]"
               />
@@ -424,12 +424,13 @@ const Project = () => {
             </p>
             <div className="flex space-x-7">
               <a
-                href=""
+                href="mailto:rajaimayabharathi@gmail.com"
                 className="py-3 px-5 bg-slate-900 rounded-full text-white"
+                
               >
                 Mail Me
               </a>
-              <a href="" className="py-3 px-5 bg-slate-300 rounded-full">
+              <a href="tel:+7904555215" className="py-3 px-5 bg-slate-300 rounded-full">
                 WhatsApp
               </a>
             </div>
