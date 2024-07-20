@@ -176,7 +176,6 @@ const Experience = () => {
               target="_blank" ref={addToRightSlide}
             >
               <img src="metaLogo.png" alt="logo" className="w-11 rounded-sm" />
-              <img src="metaLogo.png" alt="M" className="w-11 rounded-sm" />
               <div ref={addToRightSlide}>
                 <p>Metaphor Hub</p>
                 <p className="text-sm font-normal">Coimbatore, India</p>
