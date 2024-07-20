@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&family=M+PLUS+Code+Latin:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+.mainContentSection {
+  /* background-color: #060606; */
+  background-color: #0e0e0e;
+}
+
+/* Navar Styling Starts Here */
+.navbarStyling {
+  font-size: 13px;
+  font-weight: 200;
+}
+/* .NavBarBtn{
+    padding: 5px 10px; 
+    border: 1px solid #1FF68F ;
+    border-radius: 7px 7px 7px 0px;
+    transition: 200ms ease-in-out;
+    letter-spacing: -2px;
+}
+.NavBarBtn:hover{
+    background: #1FF68F;
+    color: #0e0e0e;
+} */
+
+.NavBarBtn {
+  color: white;
+  cursor: pointer;
+  padding: 5px 7px;
+  border: 1px solid #171717;
+  background-color: #171717;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+
+.NavBarBtn:hover {
+  border: 1px solid #1ff68f;
+  color: white;
+  background-position: 40%;
+}
+.button-borders {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+.button-borders:before {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.5em);
+  height: 50%;
+  left: -0.3em;
+  top: -0.3em;
+  border: 1px solid #494d52;
+  border-bottom: 0px;
+}
+.button-borders:after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.5em);
+  height: 50%;
+  left: -0.3em;
+  bottom: -0.3em;
+  border: 1px solid #494d52;
+  border-top: 0px;
+  z-index: 0;
+}
+
+/* Custom animation for hamburger button */
+.hamburger {
+  transition: all 0.3s ease-in-out;
+}
+.hamburger.open .line1 {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.hamburger.open .line2 {
+  opacity: 0;
+}
+.hamburger.open .line3 {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Navbar Styling Ends here */
+
+/* Social Icons Styling Starts Here */
+.socialIconsStyling {
+  font-size: 12px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  min-width: 100%;
+  background: rgba(14, 14, 14, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(14, 14, 14, 0.7);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  transition: 200ms ease-in-out;
+}
+.socialIconsStyling a:hover {
+  color: #1ff68f;
+  transition: 200ms ease-in-out;
+}
+
+.socialIconsInMobile {
+  font-size: 12px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  transition: 200ms ease-in-out;
+  opacity:0;
+}
+/* Social Icons Styling Ends Starts Here */
+
+/* Home Styling Starts Here */
+
+.WelcomeText {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.NameText {
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.subPara1 {
+  font-size: 16px;
+  max-width: 650px;
+  line-height: 2;
+}
+.subPara2 {
+  font-size: 16px;
+  max-width: 650px;
+  line-height: 2;
+}
+span {
+  color: #1ff68f;
+  /* color: #05c96e; */
+}
+.HomeBtn {
+  border: 1px solid #1ff68f;
+  border-radius: 10px;
+  padding: 10px 35px;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 12px;
+  transition: 0.3s ease-in-out;
+  opacity:0;
+}
+.HomeBtn:hover {
+  color: #1e1e1e;
+  background-color: #1dd68f;
+}
+
+.HomeImg {
+  max-width: 600px;
+  pointer-events: none;
+}
+.HomeImg1 {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .HomeImg {
+    display: none;
+  }
+  .HomeImg1 {
+    display: block;
+    max-width: 400px;
+    max-height: 400px;
+  }
+  .WelcomeText {
+    font-size: 16px;
+    font-weight: 100;
+  }
+
+  .NameText {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .subPara1 {
+    max-width: 650px;
+    line-height: 2;
+  }
+  .subPara2 {
+    max-width: 650px;
+    line-height: 2;
+  }
+}
+@media (max-width: 768px) {
+  .WelcomeText {
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .NameText {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+/* Home Styling Ends Here */
+
+/*Carousel Designing Startes here */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.carousel-container {
+  width: 100%;
+  height: 100px; /* Adjust height as needed */
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  width: calc(200%); /* Double the width to accommodate for infinite loop */
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+/*Carousel Designing Ends here */
+
+/* About Styling Starts Here */
+
+.AboutSectionStyling {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.AboutHeader {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "fira code";
+}
+.HeaderLiner {
+  width: 190px;
+  height: 2px;
+  background-color: #292929;
+}
+.AboutPara1 {
+  font-size: 16px;
+  max-width: 850px;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+.AboutPara2 {
+  font-size: 16px;
+  max-width: 850px;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+.AboutPara3 {
+  font-size: 16px;
+  max-width: 650px;
+  letter-spacing: 1px;
+}
+
+.TechStackAbout {
+  color: #1ff68f;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.AboutBtn {
+  border: 1px solid #1ff68f;
+  border-radius: 10px;
+  padding: 10px 35px;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 13px;
+  transition: 0.3s ease-in-out;
+}
+.AboutBtn:hover {
+  color: #1e1e1e;
+  background-color: #1dd68f;
+}
+
+@media (max-width: 1024px) {
+  .AboutImg {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .AboutHeader {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .AboutPara1 {
+    font-size: 14px;
+    max-width: 850px;
+    line-height: 2;
+  }
+  .AboutPara2 {
+    font-size: 14px;
+    max-width: 850px;
+    line-height: 2;
+  }
+  .AboutPara3 {
+    font-size: 14px;
+    max-width: 650px;
+  }
+
+  .TechStackAbout {
+    color: #1ff68f;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+}
+
+/* About Styling Ends Here */
+
+/* Experience page styling */
+
+.companyInfo {
+  line-height: 2;
+}
+.experienceInfo {
+  line-height: 2;
+}
+
+/* Contact Sections */
+
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 8s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+.animation-delay-6000 {
+  animation-delay: 6s;
+}
