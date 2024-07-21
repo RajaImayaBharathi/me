@@ -60,7 +60,7 @@ const NavBar = () => {
       <nav className="flex lg:bg-SecondaryDark justify-between items-center py-2 px-8 text-white mx-4 my-4  rounded-full font-Navbar">
             
             <div className="cursor-pointer">
-              <img src="/iconImg.svg" alt="" />
+              <img src="iconImg.svg" alt="" />
             </div>
   
             <div className="hidden lg:flex items-center">
