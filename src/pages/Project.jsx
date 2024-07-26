@@ -40,7 +40,7 @@ const Project = () => {
         ease: "sine.out",
         scrollTrigger: {
           trigger: LeftSlide1.current,
-          start: "top 80%", // Adjust the start point as needed
+          start: "top 100%", // Adjust the start point as needed
         },
         clearProps: "all",
       }
@@ -106,7 +106,7 @@ const Project = () => {
 
         <div>
           {/* First Project */}
-          <div className="m-10 mt-36 flex flex-col-reverse lg:flex-row space-y-5 ">
+          <div className="lg:m-10 lg:mt-36 mt-5 p-5 flex flex-col-reverse lg:flex-row space-y-5 ">
             <div className="flex items-center mt-10" ref={addToLeftSlide1}>
               <img
                 src="webapp1.PNG"
@@ -211,7 +211,7 @@ const Project = () => {
           </div>
 
           {/* Second Project */}
-          <div className="m-10 mt-36 flex flex-col-reverse lg:flex-row space-y-5">
+          <div className="lg:m-10 lg:mt-36 mt-5 p-5 flex flex-col-reverse lg:flex-row space-y-5">
             <div className="flex items-center mt-10" ref={addToRightSlide1}>
               <img
                 src="TransItHub2.PNG"
@@ -308,7 +308,7 @@ const Project = () => {
           </div>
 
           {/* Third Project */}
-          <div className="m-10 mt-36 flex flex-col-reverse lg:flex-row space-y-5 ">
+          <div className="lg:m-10 lg:mt-36 mt-5 p-5 flex flex-col-reverse lg:flex-row space-y-5 ">
             <div className="flex items-center mt-10" ref={addToLeftSlide2}>
               <img
                 src="autoassistHub.PNG"
@@ -406,12 +406,12 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="flex text-white ml-10 mt-20 items-center cursor-pointer">
-          <p className="text-white  font-bold text-xl hover:text-highlightOne transition duration-300 ease-in-out">
+        <div className="flex text-white ml-10 mt-20 items-center cursor-pointer ">
+          <p className="text-white  font-bold text-xl transition duration-300 ease-in-out">
             {" "}
             View Full Project Archive
           </p>
-          <GoArrowUpRight className="text-3xl ml-10 hover:bg-highlightOne rounded-lg hover:text-slate-900" />
+          <GoArrowUpRight className="text-3xl ml-10  rounded-lg" />
         </div>
 
         <div className="min-h-screen-minus-800 flex items-center justify-center bg-gray-50 rounded-lg mt-20 py-10">
@@ -419,7 +419,7 @@ const Project = () => {
             <div className="">
               <PiHandshakeLight className="text-6xl " />
             </div>
-            <p className="text-zinc-900 mt-10 mb-5 text-2xl font-bold">
+            <p className="text-zinc-900 mt-10 mb-5 text-2xl font-bold text-center">
               Tell me about your next Project
             </p>
             <div className="flex space-x-7">

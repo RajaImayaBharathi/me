@@ -141,26 +141,26 @@ const Experience = () => {
           ref={addToFadeIn}
         >
           <a
-            href="https://github.com/RajaImayaBharathi"
+            href="https://www.linkedin.com/in/raja-imaya-bharathi"
             target="_blank"
             rel="noopener noreferrer"
           >
             LinkedIn&ensp;.&ensp;
           </a>
           <a
-            href="https://www.linkedin.com/in/raja-imaya-bharathi"
+            href="https://github.com/RajaImayaBharathi "
             target="_blank"
             rel="noopener noreferrer"
           >
             GitHub&ensp;.&ensp;
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://leetcode.com/u/rajaimayabharathi/" target="_blank" rel="noopener noreferrer">
             LeetCode&ensp;&ensp;
           </a>
         </div>
 
         {/* First card */}
-        <div className="m-10 mt-36 flex flex-col space-y-5" style={{ overflow: "hidden" }}>
+        <div className="lg:m-10 lg:mt-36 mt-10 flex flex-col space-y-5" style={{ overflow: "hidden" }}>
           <div className="space-y-5 mb-3 mr-10">
             <div className="text-highlightOne" id="title" ref={addToRightSlide}>
               <p>
@@ -290,7 +290,7 @@ const Experience = () => {
               </p>
             </div>
           </div>
-          <div className="p-10 rounded-lg bg-zinc-900 text-white space-y-4 experienceInfo text-justify" ref={addToLeftSlide} style={{ overflow: "hidden" }}>
+          <div className="lg:p-10 p-5 rounded-lg bg-zinc-900 text-white space-y-4 experienceInfo text-justify" ref={addToLeftSlide} style={{ overflow: "hidden" }}>
             <p>
               As a <span>Freelance full stack Engineer</span>, I developed and
               debugged cutting-edge progressive Web Applications, SaaS{" "}
@@ -334,11 +334,11 @@ const Experience = () => {
         </div>
 
         {/* Second card */}
-        <div className="m-10 flex flex-col lg:flex-row space-y-5" style={{ overflow: "hidden" }}>
+        <div className="lg:m-10 mt-10 flex flex-col lg:flex-row space-y-5" style={{ overflow: "hidden" }}>
           <div className="space-y-5 mb-3 mr-10">
             <div className="text-highlightOne" id="title" ref={addToRightSlide1}>
               <div>
-                <span className="font-Navbar">02</span>. Software Engineer{" "}
+                <span className="font-Navbar">02</span>. SDE Developer Head{" "}
                 <span className="text-white">
                   &ensp;.&ensp;{` ( July 2024 ~ Sep 2024)`}
                 </span>
@@ -427,17 +427,19 @@ const Experience = () => {
               </p>
             </div>
           </div>
-          <div className="p-10 rounded-lg bg-zinc-900 text-white space-y-4 lg:min-w-[500px] lg:max-w-[500px] experienceInfo text-justify" ref={addToLeftSlide1} >
+          <div className="p-10 rounded-lg bg-zinc-900 text-white space-y-4 lg:min-w-[500px] lg:max-w-[500px] experienceInfo text-justify space-y-5" ref={addToLeftSlide1} >
             <p>
-              As an <span>Software Developer Engineer Intern</span>, I developed
-              and enhanced the software by developing productive, responsive
-              components and robust backend for cross-functional browsers and
-              application support.
+              As an <span>Developer Head </span> and a <span>Software Developer Engineer</span>, I successfully led a diverse team of <span>13 </span>software engineers and effectively managed a team of fullstack, backend, and frontend software engineers. I fostered a friendly and collaborative work culture, ensuring the timely completion of numerous projects, enhancing efficiency, and meeting all deadlines.
+              
+              <p>
+              I efficiently allocated tasks among team members while managing my own development responsibilities, ensuring <span>balanced workloads and optimal productivity</span> .
+              </p> 
+              <p>
+              Focusing on debugging and optimizing code to improve efficiency and readability, I led to a more streamlined and maintainable codebase. I worked closely with both frontend and backend teams to implement enhancements aligned with business goals, ensuring seamless integration and functionality.
+              </p> 
             </p>
             <p>
-              Focused on debugging and optimizing code to improve efficiency and
-              readability, and colloborating with frontend and backend sector to
-              implement enhancements aligned with business goals
+            I have a <span>proven track record of leading developer teams to successfully deliver fully optimized, bug-free products.</span> My focus on efficiency, readability, and cross-platform compatibility has consistently resulted in high-quality, scalable software solutions.
             </p>
           </div>
         </div>

@@ -66,20 +66,20 @@ const HomePage = () => {
 
           <div className="pb-3 pt-2 socialIconsInMobile lg:hidden flex-row text-white font-Navbar" ref={addToLeftSlide}>
             <a
-              href="https://github.com/RajaImayaBharathi"
+              href="https://www.linkedin.com/in/raja-imaya-bharathi"
               target="_blank"
               rel="noopener noreferrer"
             >
               LinkedIn&ensp;.&ensp;
             </a>
             <a
-              href="https://www.linkedin.com/in/raja-imaya-bharathi"
+              href="https://github.com/RajaImayaBharathi"
               target="_blank"
               rel="noopener noreferrer"
             >
               GitHub&ensp;.&ensp;
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://leetcode.com/u/rajaimayabharathi/" target="_blank" rel="noopener noreferrer">
               LeetCode&ensp;&ensp;
             </a>
           </div>
@@ -98,7 +98,7 @@ const HomePage = () => {
             am also an active{" "}
             <span className="text-highlightOne">open-source contributor</span>.
           </p>
-          <button className="HomeBtn mt-20" ref={buttonRef}>Hire me??</button>
+          {/* <button className="HomeBtn mt-20" ref={buttonRef}>Hire me??</button> */}
         </div>
         <div className="ml-20 HomeImg" ref={DownSlide}>
           <img src="HomeImg.png" className="HomeImg" alt=""  />

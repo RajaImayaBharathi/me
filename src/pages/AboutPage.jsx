@@ -117,20 +117,20 @@ const AboutPage = () => {
               </header>
               <div className="socialIconsInMobile pb-3 pt-2 pl-9 lg:hidden flex-row text-white font-Navbar" ref={FadeIn}>
                 <a
-                  href="https://github.com/RajaImayaBharathi"
+                  href="https://www.linkedin.com/in/raja-imaya-bharathi"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   LinkedIn&ensp;.&ensp;
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/raja-imaya-bharathi"
+                  href="https://github.com/RajaImayaBharathi"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   GitHub&ensp;.&ensp;
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://leetcode.com/u/rajaimayabharathi/" target="_blank" rel="noopener noreferrer">
                   LeetCode&ensp;&ensp;
                 </a>
               </div>

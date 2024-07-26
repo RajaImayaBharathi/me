@@ -148,14 +148,15 @@ span {
   border-radius: 10px;
   padding: 10px 35px;
   letter-spacing: 2px;
-  color: #fff;
   font-size: 12px;
   transition: 0.3s ease-in-out;
   opacity:0;
-}
-.HomeBtn:hover {
   color: #1e1e1e;
   background-color: #1dd68f;
+}
+.HomeBtn:hover {
+  color: #fff;
+  background-color:transparent;
 }
 
 .HomeImg {
@@ -275,17 +276,20 @@ span {
   letter-spacing: 1px;
 }
 .AboutBtn {
-  border: 1px solid #1ff68f;
+  color: #1e1e1e;
+  background-color: #1dd68f;
   border-radius: 10px;
   padding: 10px 35px;
   letter-spacing: 2px;
-  color: #fff;
   font-size: 13px;
   transition: 0.3s ease-in-out;
+  border: 1px solid #1ff68f;
+  
 }
 .AboutBtn:hover {
-  color: #1e1e1e;
-  background-color: #1dd68f;
+  border: 1px solid #1ff68f;
+  color: #fff;
+  background-color: transparent;
 }
 
 @media (max-width: 1024px) {
