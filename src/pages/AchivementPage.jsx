@@ -129,8 +129,8 @@ const AchivementPage = () => {
         </div>
 
         <section className="text-gray-200 body-font overflow-hidden">
-          <div className="container px-5 py-24 mx-auto">
-            <div className="-my-8 divide-y-2 divide-gray-100">
+          <div className=" lg:py-24 mx-auto py-14">
+            <div className="divide-y-2 divide-gray-100">
               <div className="py-8 flex flex-wrap md:flex-nowrap hover:bg-gray-900 py-5 px-2 rounded-lg transition duration-300 ease-in-out">
                 <div className="md:w-64 pr-2 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                   <span className="font-semibold title-font" ref={addToRightSlide1}>
