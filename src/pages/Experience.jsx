@@ -56,7 +56,7 @@ const Experience = () => {
           trigger: LeftSlide.current,
           start: "top 80%", // Adjust the start point as needed
         },
-        clearProps: "all"
+        clearProps: "all",
       }
     );
     gsap.fromTo(
@@ -71,7 +71,7 @@ const Experience = () => {
           trigger: LeftSlide1.current,
           start: "top 80%", // Adjust the start point as needed
         },
-        clearProps: "all"
+        clearProps: "all",
       }
     );
 
@@ -84,7 +84,7 @@ const Experience = () => {
         trigger: DownSlide.current,
         start: "top 80%", // Adjust the start point as needed
       },
-      clearProps: "x"
+      clearProps: "x",
     });
 
     gsap.fromTo(
@@ -100,7 +100,7 @@ const Experience = () => {
           trigger: RightSlide.current,
           start: "top 80%", // Adjust the start point as needed
         },
-        clearProps: "all"
+        clearProps: "all",
       }
     );
     gsap.fromTo(
@@ -116,7 +116,7 @@ const Experience = () => {
           trigger: RightSlide1.current,
           start: "top 80%", // Adjust the start point as needed
         },
-        clearProps: "all"
+        clearProps: "all",
       }
     );
   }, []);
@@ -154,13 +154,20 @@ const Experience = () => {
           >
             GitHub&ensp;.&ensp;
           </a>
-          <a href="https://leetcode.com/u/rajaimayabharathi/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://leetcode.com/u/rajaimayabharathi/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             LeetCode&ensp;&ensp;
           </a>
         </div>
 
         {/* First card */}
-        <div className="lg:m-10 lg:mt-36 mt-10 flex flex-col space-y-5" style={{ overflow: "hidden" }}>
+        <div
+          className="lg:m-10 lg:mt-36 mt-10 flex flex-col space-y-5"
+          style={{ overflow: "hidden" }}
+        >
           <div className="space-y-5 mb-3 mr-10">
             <div className="text-highlightOne" id="title" ref={addToRightSlide}>
               <p>
@@ -173,7 +180,8 @@ const Experience = () => {
             <a
               className="flex text-white items-center font-bold text-3xl space-x-4 "
               href="https://metaphorhub.com/"
-              target="_blank" ref={addToRightSlide}
+              target="_blank"
+              ref={addToRightSlide}
             >
               <img src="metaLogo.png" alt="" className="w-11 rounded-sm" />
               <div ref={addToRightSlide}>
@@ -182,7 +190,10 @@ const Experience = () => {
               </div>
               <GoArrowUpRight />
             </a>
-            <div className="text-white max-w-[700px] companyInfo text-justify" ref={addToRightSlide}>
+            <div
+              className="text-white max-w-[700px] companyInfo text-justify"
+              ref={addToRightSlide}
+            >
               <p>
                 <span className="text-white">Metaphor Hub</span> is a prominant
                 Custom Software development club and a club for open source{" "}
@@ -290,7 +301,11 @@ const Experience = () => {
               </p>
             </div>
           </div>
-          <div className="lg:p-10 p-5 rounded-lg bg-zinc-900 text-white space-y-4 experienceInfo text-justify" ref={addToLeftSlide} style={{ overflow: "hidden" }}>
+          <div
+            className="lg:p-10 p-5 rounded-lg bg-zinc-900 text-white space-y-4 experienceInfo text-justify"
+            ref={addToLeftSlide}
+            style={{ overflow: "hidden" }}
+          >
             <p>
               As a <span>Freelance full stack Engineer</span>, I developed and
               debugged cutting-edge progressive Web Applications, SaaS{" "}
@@ -334,9 +349,16 @@ const Experience = () => {
         </div>
 
         {/* Second card */}
-        <div className="lg:m-10 mt-10 flex flex-col lg:flex-row space-y-5" style={{ overflow: "hidden" }}>
+        <div
+          className="lg:m-10 mt-10 flex flex-col lg:flex-row space-y-5"
+          style={{ overflow: "hidden" }}
+        >
           <div className="space-y-5 mb-3 mr-10">
-            <div className="text-highlightOne" id="title" ref={addToRightSlide1}>
+            <div
+              className="text-highlightOne"
+              id="title"
+              ref={addToRightSlide1}
+            >
               <div>
                 <span className="font-Navbar">02</span>. SDE Developer Head{" "}
                 <span className="text-white">
@@ -350,18 +372,17 @@ const Experience = () => {
               className="flex text-white items-center font-bold text-3xl space-x-4 "
               ref={addToRightSlide1}
             >
-              <img
-                src="OPMLogo.PNG"
-                alt=""
-                className="w-10 h-11 rounded-sm"
-              />
+              <img src="OPMLogo.PNG" alt="" className="w-10 h-11 rounded-sm" />
               <div>
                 <p>OPM Corporation</p>
                 <p className="text-sm font-normal">Bengaluru, India</p>
               </div>
               <GoArrowUpRight />
             </a>
-            <div className="text-white max-w-[700px] companyInfo text-justify" ref={addToRightSlide1}>
+            <div
+              className="text-white max-w-[700px] companyInfo text-justify"
+              ref={addToRightSlide1}
+            >
               <p>
                 <span className="text-white">OPM Corporation</span> is a leading
                 business consulting firm founded in June 2020, dedicated to
@@ -427,19 +448,26 @@ const Experience = () => {
               </p>
             </div>
           </div>
-          <div className="p-10 rounded-lg bg-zinc-900 text-white space-y-4 lg:min-w-[500px] lg:max-w-[500px] experienceInfo text-justify space-y-5" ref={addToLeftSlide1} >
+          <div
+            className="p-10 rounded-lg bg-zinc-900 text-white space-y-4 lg:min-w-[500px] lg:max-w-[500px] experienceInfo text-justify space-y-5"
+            ref={addToLeftSlide1}
+          >
             <p>
-              As an <span>Developer Head </span> and a <span>Software Developer Engineer</span>, I successfully led a diverse team of <span>13 </span>software engineers and effectively managed a team of fullstack, backend, and frontend software engineers. I fostered a friendly and collaborative work culture, ensuring the timely completion of numerous projects, enhancing efficiency, and meeting all deadlines.
-              
-              <p>
-              I efficiently allocated tasks among team members while managing my own development responsibilities, ensuring <span>balanced workloads and optimal productivity</span> .
-              </p> 
-              <p>
-              Focusing on debugging and optimizing code to improve efficiency and readability, I led to a more streamlined and maintainable codebase. I worked closely with both frontend and backend teams to implement enhancements aligned with business goals, ensuring seamless integration and functionality.
-              </p> 
+              As <span>Developer Head</span> and{" "}
+              <span>Software Developer Engineer</span>, I led a team of 13
+              engineers, fostering a collaborative work culture and ensuring
+              timely project completion. I balanced task allocation and
+              development responsibilities, enhancing productivity.
             </p>
             <p>
-            I have a <span>proven track record of leading developer teams to successfully deliver fully optimized, bug-free products.</span> My focus on efficiency, readability, and cross-platform compatibility has consistently resulted in high-quality, scalable software solutions.
+              Focusing on debugging and code optimization, I improved efficiency
+              and readability. I worked closely with frontend and backend teams
+              to implement business-aligned enhancements, ensuring seamless
+              integration.
+            </p>
+            <p>
+              I have a proven track record of delivering optimized, bug-free,
+              high-quality, scalable software solutions.
             </p>
           </div>
         </div>
